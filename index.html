@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Marvel_Logo.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Marvel Characters</title>
+</head>
+<body>
+    <header id="header">
+        <div class="div-logo" id="inicio"><img class="logo" src="./img/Marvel_Logo.svg.png" alt="logo"></div>
+ 
+         <ul class="menu">
+             <li><a href="#filtroInput">INÍCIO</a></li>
+             <li><a href="#personagens">PERSONAGENS</a></li>
+             <li><a href="#favoritos">FAVORITOS</a></li>
+         </ul>
+     </header>
+
+    <div class="container">
+        <h1>Personagens da Marvel</h1>
+        <input type="text" id="filtroInput" placeholder="Filtrar por nome..." />
+       
+        <div id="personagens"></div>
+        <div id="loading" class="hidden">Carregando...</div>
+        <button id="btn" type="button">Carregar mais</button>
+        <p id="note">NOTA: Personagens sem imagem disponível estão ocultos</p>
+    </div>
+    <div class="container">
+        <h1>Personagens Favoritos</h1>
+            <div id="favoritos"></div>
+            <p id="noFavorites">Ainda não há personagens favoritos</p>
+    </div>
+    <footer><a href="http://marvel.com">Data provided by Marvel. © 2024 MARVEL</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
