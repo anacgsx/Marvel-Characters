@@ -9,6 +9,7 @@
 
 body {
     background-color: rgb(34, 32, 32);
+    color: aliceblue;
     font-family: "Assistant", sans-serif;
     height: 100vh;
     padding-top: 60px;
@@ -42,7 +43,7 @@ body {
     font-size: 13px;
 }
 header ul li a{
-    color:#777676;
+    color:aliceblue;
 }
 .menu li:hover{
     background-color: rgb(34, 32, 32);
@@ -106,6 +107,7 @@ h1{
     display: block;
     margin: 30px auto;
     background-color: rgb(58, 58, 58);
+    color: aliceblue;
     border:none;
     border-radius: 20px;
     padding: 10px 20px;
@@ -137,6 +139,7 @@ h1{
     margin: 10px;
     padding-left: 100px;
     padding-right: 100px;
+    color:aliceblue
 }
 .favorite-icon:hover{
     transform: scale(0.9);
