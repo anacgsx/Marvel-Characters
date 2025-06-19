@@ -1,5 +1,5 @@
 let offset = 0;
-const limit = 32; 
+const limit = 60; 
 let characters = [];
 let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 const loading = document.getElementById("loading");
